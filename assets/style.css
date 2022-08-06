@@ -99,7 +99,7 @@ body {
 }
 
 
-.hello button {
+.hello a {
     background-color: #F64A25 !important;
     border-radius: 4px !important;
     border: unset !important;
@@ -111,7 +111,7 @@ body {
 }
 
 
-.hello button:focus {
+.hello a:focus {
     box-shadow: 0px 0px 10px 8px rgba(246, 74, 37, 0.25) !important;
 }
 
