@@ -1,4 +1,3 @@
-
 development.forEach(function(value){
     $('.development-carousel').append(`
     <div class="protfolio-card">
@@ -12,8 +11,6 @@ development.forEach(function(value){
     `)
  });
 
-
-
 design.forEach(function(value){
     $('.design-carousel').append(`
     <div class="protfolio-card">
@@ -26,7 +23,6 @@ design.forEach(function(value){
     </div>
     `)
 });
-
 
 $('.owl-carousel').owlCarousel({
     center: true,
