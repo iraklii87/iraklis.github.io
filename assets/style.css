@@ -367,13 +367,14 @@ body {
 
 .mockup{
     position: absolute;
-    width: 253px;
+    width: 300px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10000;
     pointer-events: none;
 }
+
 .content::-webkit-scrollbar{
     display: none;
 }
@@ -385,7 +386,7 @@ body {
     width: 375px;
     height: 811.44px;
     top: 50%;
-    transform: translate(-50%, -50%) scale(0.6);
+    transform: translate(-50%, -50%) scale(0.71);
     overflow: scroll;
 }
    
